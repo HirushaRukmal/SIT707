@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="sit707_tasks.DateUtilTest" time="0.108" tests="29" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/hirusharukmal/eclipse-workspace/task3_2C/target/test-classes:/Users/hirusharukmal/eclipse-workspace/task3_2C/target/classes:/Users/hirusharukmal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/hirusharukmal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GB"/>
+    <property name="sun.boot.library.path" value="/Users/hirusharukmal/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.8.v20230831-1047/jre/lib"/>
+    <property name="sun.java.command" value="/Users/hirusharukmal/eclipse-workspace/task3_2C/target/surefire/surefirebooter-20260407184734126_3.jar /Users/hirusharukmal/eclipse-workspace/task3_2C/target/surefire 2026-04-07T18-47-33_968-jvmRun1 surefire-20260407184734126_1tmp surefire_0-20260407184734126_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/hirusharukmal/eclipse-workspace/task3_2C/target/test-classes:/Users/hirusharukmal/eclipse-workspace/task3_2C/target/classes:/Users/hirusharukmal/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/hirusharukmal/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/hirusharukmal"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-08-24"/>
+    <property name="java.home" value="/Users/hirusharukmal/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.macosx.x86_64_17.0.8.v20230831-1047/jre"/>
+    <property name="file.separator" value="/"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="/Users/hirusharukmal/eclipse-workspace/task3_2C"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/hirusharukmal/eclipse-workspace/task3_2C/target/surefire/surefirebooter-20260407184734126_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.8.1+1"/>
+    <property name="user.name" value="hirusharukmal"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="26.3"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.8.1+1"/>
+    <property name="localRepository" value="/Users/hirusharukmal/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/hc/9czx7bds05x0963wc7xm6yn80000gn/T/"/>
+    <property name="java.version" value="17.0.8.1"/>
+    <property name="user.dir" value="/Users/hirusharukmal/eclipse-workspace/task3_2C"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/hirusharukmal/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.8.1+1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testD3_M2_Y1_Day30In31DayMonthIncrement" classname="sit707_tasks.DateUtilTest" time="0.004"/>
+  <testcase name="testD4_M2_Y1_EndOf31DayMonthIncrement" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalidYearBelowRange" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testStudentIdentity" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD1_M2_Y1_DecrementNormal31DayMonth" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD1_M3_Y1_IncrementNormalFebruaryNonLeap" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD2_M2_Y1_Day29In31DayMonthIncrement" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalidMonthAboveRange" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD2_M1_Y1_Day29In30DayMonthIncrement" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalidMonthBelowRange" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD2_M3_Y2_LeapYearFeb29Increment" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD4_M2_Y1_EndOf31DayMonthDecrement" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalid_D4_M1_31In30DayMonth" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalidDayAboveRange" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD1_M1_Y1_DecrementNormal30DayMonth" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD3_M1_Y1_EndOf30DayMonthIncrement" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD1_M2_Y1_IncrementNormal31DayMonth" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testValidUpperYearClass" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalidDayBelowRange" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD1_M3_Y1_DecrementNormalFebruaryNonLeap" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalid_D4_M3_31Feb" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalid_D3_M3_30Feb" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalid_D2_M3_Y1_29FebNonLeapYear" classname="sit707_tasks.DateUtilTest" time="0.001"/>
+  <testcase name="testStudentName" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testInvalidYearAboveRange" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD2_M3_Y2_LeapYearFeb29Decrement" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testValidLowerYearClass" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD1_M1_Y1_IncrementNormal30DayMonth" classname="sit707_tasks.DateUtilTest" time="0.0"/>
+  <testcase name="testD3_M1_Y1_EndOf30DayMonthDecrement" classname="sit707_tasks.DateUtilTest" time="0.003"/>
+</testsuite>

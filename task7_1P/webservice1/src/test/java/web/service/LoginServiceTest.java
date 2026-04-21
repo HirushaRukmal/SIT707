@@ -10,7 +10,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class LoginServiceTest {
 
     private static final String LOGIN_HTML_FILE =
-            "file:///Users/hirusharukmal/eclipse-workspace/task7_1P/pages/login.html";
+            "file:///Users/hirusharukmal/Documents/Deakin/SIT707/SIT707/task7_1P/pages/login.html";
+    
 
     private void sleep(long sec) {
         try {
